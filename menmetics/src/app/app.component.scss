@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header{
+  position: sticky;
+  flex-shrink: 0;
+  flex-grow: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.content{
+  flex: 1
+}
+
+.cookies {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 3;
+}
+
+.footerapp {
+  z-index: 1;
+}

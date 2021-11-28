@@ -1,0 +1,26 @@
+.menmetics-card {
+  max-width: 300px;
+}
+
+.menmetics-header-image {
+  background-image: url('../../assets/face.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+mat-card {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.product-image {
+  width: calc(100% + 32px);
+  height: 300px;
+  object-fit: contain;
+}
+
+.buy-price {
+  display: flex;
+  justify-content: space-between;
+}
